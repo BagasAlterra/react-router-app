@@ -14,6 +14,7 @@ class Contact extends Component {
         <Button onClick={(value) => this.goBack(value)}>
           Balik ke halaman Home
         </Button>
+        <p>Good Morning, {this.props.location.state.email}</p>
       </div>
     );
   }
